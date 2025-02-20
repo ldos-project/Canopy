@@ -1,0 +1,5 @@
+model_checkpoint_path: "test_model_single-300"
+all_model_checkpoint_paths: "test_model_single-0"
+all_model_checkpoint_paths: "test_model_single-100"
+all_model_checkpoint_paths: "test_model_single-200"
+all_model_checkpoint_paths: "test_model_single-300"
