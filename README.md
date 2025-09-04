@@ -1,6 +1,6 @@
-# C3 Distributed
+Canopy
 
-This serves as a codebase for the distributed version of C3 based on Orca.
+This serves as a codebase for the distributed version of Canopy based on Orca.
 
 1. Create a cloudlab job with 17 nodes (16 nodes for actors, 1 node for learner) using the `orca` profile (which will have the `linux-learner` image preinstalled once the nodes start)'
 2. Run `./cloudlab/config.sh` to setup the nodes (run this from YOUR machine).
@@ -21,4 +21,4 @@ This serves as a codebase for the distributed version of C3 based on Orca.
 2. Use `./scripts/plots/plot_thr_delay.py` for thr vs delay plots.
 
 # Other useful info
-1. `baseline_v4` is the baseline used for NSDI submission.
+1. `baseline_v4` is the baseline used for the submission.
