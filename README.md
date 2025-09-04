@@ -1,4 +1,4 @@
-##Canopy
+## Canopy
 
 This serves as a codebase for the distributed version of Canopy based on Orca.
 
