@@ -13,7 +13,7 @@ This serves as a codebase for the distributed version of Canopy based on Orca.
 1. Move the checkpoint you desire into `./rl-module/train_dir/seed0/`. When you do `ls` inside this `seed0`, it should show you one directory that looks something like `learner0-v9_actorNum256_multi_lambda0.0_ksymbolic5_k1_raw-sym_threshold25_seed0/`.
 2. Run `./scripts/eval_orca.sh <model_name> <trace_dir> <results_dir> <start_run> <end_run> <constraints_id>`.
 3. `<trace_dir>` is `/proj/<cloudlab_project_name>/Canopy/sage_traces/traces` for SAGE traces.
-4. `<results_dir>` is `/proj/<cloudlab_project_name>/sigcomm_results/new_result_dir/constraint_id_*`.
+4. `<results_dir>` is the result directory.
 
 # Plotting and analysis
 0. Use `cd scripts && ./process_down_file.sh` to trim stuff.
